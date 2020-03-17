@@ -1,0 +1,59 @@
+.stock{
+    color:blue;
+    font-size:400%;
+    font-family:calibri;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.l_images{
+    width: 20px;
+    height: 20px;
+}
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: steelblue;
+    font-size: 40px;
+    padding: 16px 32px;
+}
+
+.company 
+{
+    background-color: #111111;
+    /*border: 1px ;*/
+    /*color: white;*/
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    /*border: 2px solid ##555555;*/
+}   
+.company{width :10%}
+
+/* https://query1.finance.yahoo.com/v7/finance/download/ADBE?period1=221097600&period2=1582848000&interval=1d&events=history&crumb=S.bObiubcTH */
